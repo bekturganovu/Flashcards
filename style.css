@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+    
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+
+
+/* main */
+
+.main{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+
+    /* display: none; */
+}
+
+.main_start{
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+
+.but_start{
+    width: 250px;
+    height: 100px;
+    background-color: #4d0489;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_down{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+}
+
+input[type="file"] {
+    display: none; 
+}
+
+.but_down{
+    width: 250px;
+    height: 100px;
+    background-color: #4d0489;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_but{
+    display: flex;
+    padding: 1.5rem 4.5rem;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 3px solid #4d0489;
+}
+
+.main_but div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/* game */
+
+.game{
+    width: 100%;
+    height: 812px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+}
+
+.card{
+    background-color: #4d0489;
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.quest{
+    width: 100%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+
+    /* align-items: end; */
+}
+
+.answer{
+    width: 100%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4d0489;
+    font-size: 2em;
+    border: 2px solid #4d0489;
+    border-radius: 0 0 15px 15px;
+    background-color: #ffffff;
+    text-align: center;
+
+    display: none;
+}
+
+
+
+/* end */
+
+.end{
+    width: 100%;
+    height: 812px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    display: none;
+}
+
+.result{
+    margin-bottom: 50px;
+    font-size: 3em;
+}
+
+.end div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.repit{
+    background-color: #4d0489;
+    border-radius: 15px;
+}
+
+.home{
+    background-color: #4d0489;
+    border-radius: 15px;
+}

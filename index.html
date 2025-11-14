@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="main_start">
+            <div class="but_start">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 24 24" fill="#fff" stroke="#fff">
+                    <path d="M 2 0 L 2 23 L 23 12.5 L 1.5 0"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="main_down">
+            
+
+            <label class="but_down">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 24 24" fill="#fff" >
+                    <path d="M 10 1.8789062 L 10 11 L 6 11 L 12 17 L 18 11 L 14 11 L 14 1.8789062 L 9.5 1.8789062 M 2 19 L 2 21 L 22 21 L 22 19 L 1.5 19"></path>
+                </svg>
+                <input type="file" class="but_down" accept=".csv">
+            </label>
+        </div>
+
+        <div class="main_but">
+            <div>
+                <svg class="go_home" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 24 24" style="fill:#4d0489">
+                    <path d="M 12 1.8789062 L 2.1191406 7.6914062 L 1.4726562 8.0722656 L 2.234375 9.3652344 L 2.8808594 8.984375 L 3 8.9140625 L 3 21 L 21 21 L 21 8.9140625 L 21.119141 8.984375 L 21.765625 9.3652344 L 22.527344 8.0722656 L 21.880859 7.6914062 L 12 1.8789062 z M 12 3.6210938 L 19.5 8.03125 L 19.5 19.5 L 16 19.5 L 16 11 L 8 11 L 8 19.5 L 4.5 19.5 L 4.5 8.03125 L 12 3.6210938 z M 9.5 12.5 L 14.5 12.5 L 14.5 19.5 L 9.5 19.5 L 9.5 12.5 z"></path>
+                </svg>
+              
+                <svg class="go_down" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#4d0489">
+                    <path d="M 10 1.8789062 L 10 11 L 6 11 L 12 17 L 18 11 L 14 11 L 14 1.8789062 L 9.5 1.8789062 M 2 19 L 2 21 L 22 21 L 22 19 L 1.5 19"></path>
+                </svg>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="game">
+        <div class="card">
+            <div class="quest"></div>
+
+            <div class="answer"></div>
+        </div>
+    </div>
+
+    <div class="end">
+        <h1 class="result"></h1>
+        
+        <div>
+            <svg class="repit" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke=" #fff">
+                <path d="M 12 5 A 8 8 0 1 0 19 10 M 7 2 L 12 5 L 9 10"></path>
+            </svg>
+            
+            <svg class="home" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 24 24" style="fill:#fff">
+                <path d="M 12 1.8789062 L 2.1191406 7.6914062 L 1.4726562 8.0722656 L 2.234375 9.3652344 L 2.8808594 8.984375 L 3 8.9140625 L 3 21 L 21 21 L 21 8.9140625 L 21.119141 8.984375 L 21.765625 9.3652344 L 22.527344 8.0722656 L 21.880859 7.6914062 L 12 1.8789062 z M 12 3.6210938 L 19.5 8.03125 L 19.5 19.5 L 16 19.5 L 16 11 L 8 11 L 8 19.5 L 4.5 19.5 L 4.5 8.03125 L 12 3.6210938 z M 9.5 12.5 L 14.5 12.5 L 14.5 19.5 L 9.5 19.5 L 9.5 12.5 z"></path>
+            </svg>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
