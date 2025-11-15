@@ -29,6 +29,7 @@ btn_Home.addEventListener('click', () => {
 })
 
 btn_repit.addEventListener('click', () => {
+    shuffle(cards);
     currentIndex = 0       
     correctCount = 0       
     pg_game.style.display = 'flex'
@@ -63,7 +64,21 @@ btn_down.addEventListener('change', function(e){
 })
 
 // Старт игры
+
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+
 btn_start.addEventListener('click', () =>{
+    shuffle(cards);           
+    currentIndex = 0;
+    correctCount = 0;
+
     pg_game.style.display = 'flex'
     pg_main.style.display = 'none'
     showCard()
